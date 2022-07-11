@@ -808,7 +808,7 @@ body {
 
 .is-hidden {
   transform: scaleY(0);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
   pointer-events: none;
 }
 .modal-backdrop {
@@ -817,6 +817,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: absolute;
