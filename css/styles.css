@@ -184,10 +184,13 @@ body {
 }
 
 /*--------------------*/
-
+.navbar-top {
+  padding-right: 5rem;
+}
 .nav-buttons {
   padding: 0;
   margin: 0;
+
   gap: 3.286rem;
 
   max-width: 17.5rem;
@@ -254,6 +257,7 @@ body {
 
 .nav-contacts {
   justify-content: flex-end;
+  padding-left: 5rem;
 }
 
 .nav-email,
