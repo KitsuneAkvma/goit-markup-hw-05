@@ -503,7 +503,7 @@ body {
 
 .clients {
   flex-wrap: wrap;
-  gap: 2.143rem;
+  gap: 1.7rem;
   padding: 0;
 
   list-style: none;
