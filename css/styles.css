@@ -504,6 +504,7 @@ body {
 .clients {
   flex-wrap: wrap;
   gap: 2.143rem;
+  padding: 0;
 
   list-style: none;
 }
